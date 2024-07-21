@@ -653,8 +653,8 @@ ul.email li i {
 }
 
 .about_img figure img {
-     width: 100%;
-     margin-bottom: -11px;
+     width: 50%;
+     /* margin-bottom: -2px; */
 }
 
 .about .read_more {
@@ -965,6 +965,28 @@ ul.conta li a {
      border: inherit;
      box-shadow: 0 0 5px 0px #dddddd4d;
      padding: 0 15px;
+}
+
+.book_btn {
+     font-size: 17px;
+     transition: ease-in all 0.5s;
+     background-color: #f0390f;
+     text-transform: uppercase;
+     color: #fff;
+     /* max-width: 220px; */
+     width: 100%;
+     display: block;
+     font-weight: 500;
+     height: 48px;
+     float: right;
+     line-height: 48px;
+     border-radius: 10px;
+}
+
+.book_btn:hover {
+     background-color: #fff;
+     transition: ease-in all 0.5s;
+     color: #fff;
 }
 
 .subsci_btn {
